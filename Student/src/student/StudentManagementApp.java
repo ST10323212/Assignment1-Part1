@@ -7,7 +7,7 @@ package student;
 
 /**
  *
- * @author user-pc
+ * @author Connor Grobler-pc (dont dox me)
  */
 import java.util.ArrayList;
 import java.util.List;
@@ -123,8 +123,7 @@ public class StudentManagementApp {
         System.out.println("STUDENT COURSE: " + student.getCourse());
         System.out.println("STUDENT EMAIL: " + student.getEmail());
     }
-
-    // Main method UwU XDDDDD
+// Main method UwU XDDDDD
     public static void main(String[] args) {
         StudentManagementApp app = new StudentManagementApp();
         Scanner scanner = new Scanner(System.in);
@@ -156,7 +155,7 @@ public class StudentManagementApp {
             }
         } while (choice != '5');
         
-        scanner.close();
+        scanner.close(); //(this should work)
     }
 }
 
